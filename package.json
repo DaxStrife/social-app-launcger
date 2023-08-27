@@ -3,6 +3,23 @@
   "version": "0.0.1",
   "main": "./public/main.js",
   "exports": "./public/main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaxStrife/social-app-launcher.git"
+  },
+  "keywords": [
+    "react",
+    "javascript",
+    "frontend",
+    "web-development",
+    "app-launcher",
+    "deep-linking",
+    "mobile",
+    "url-handler",
+    "url-redirect",
+    "url-launcher"
+  ],
+  "author": "Hector Rendon",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
