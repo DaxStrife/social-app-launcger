@@ -1,6 +1,6 @@
 {
   "name": "social-app-launcher",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "main": "./public/main.js",
   "exports": "./public/main.js",
   "repository": {
@@ -20,6 +20,7 @@
     "url-launcher"
   ],
   "author": "Hector Rendon",
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

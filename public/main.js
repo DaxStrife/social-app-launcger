@@ -14,7 +14,7 @@ const convertLink = (url, kind, device = "DESKTOP") => {
     return url;
   }
   if (kind === "INSTAGRAM") {
-    return `instagram://user?username=${afterDomain}`;
+    return `instagram://user?username=${afterDomain.split("/")[1]}`;
   }
   if (kind === "FACEBOOK") {
     return `fb://profile${afterDomain}`;
